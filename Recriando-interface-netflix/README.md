@@ -13,4 +13,5 @@ Vimos um pouco do uso do <p> paragrafo e formatamos o mesmo.
 ---------------------------------------------------------------------
 
 Aula5:
-Trabalhamos mais com botton estilizando ele, colocamos uma transação no menu e trabalhamos mais com margens e Font Awesome para fazer uso de icones de forma profissional.
+Trabalhamos mais com botton estilizando ele, colocamos uma transação no menu
+e trabalhamos mais com margens e Font Awesome para fazer uso de icones de forma profissional.
