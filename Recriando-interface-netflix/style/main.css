@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos-base*/
 body {
     background: var(--preta);
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 header .container {
@@ -36,4 +38,26 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/*Filme-principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(50,0,100,.50), rgba(10,10,80,.20)50%), url('/img/capa.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
