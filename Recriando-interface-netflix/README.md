@@ -14,3 +14,7 @@ Vimos um pouco do uso do <p> paragrafo e formatamos o mesmo.
 
 Aula5:
 Trabalhamos mais com botton estilizando ele, colocamos uma transação no menu e trabalhamos mais com margens e Font Awesome para fazer uso de icones de forma profissional.
+-----------------------------------------------------------------------
+Aula 06:
+Nesta aula vimos boas práticas e técnicas com CSS3, falando um pouco
+mais sobre classe container e wrapper.
