@@ -3,11 +3,15 @@ body {
 }
 
 .navbar {
-   background-color: rgb(48, 185, 185); 
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .quem-somos {
-    background-color: #8181f7;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
 }
 
@@ -17,10 +21,16 @@ body {
 }
 
 .parceiros {
-    background-color: #98b4bb;
+    background-color: #0b8793;
     color: white;
 }
 
-.parceiros img {
+.parceiros, .servicos img {
     width: 100%;
+}
+
+.bg-footer {
+    color: white;
+    background-color: #000000;
+    background-image: linear-gradient(225deg, #000000 0%, #055e5d 50%, #000000 100%);
 }
