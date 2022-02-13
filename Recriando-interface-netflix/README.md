@@ -2,19 +2,21 @@
 
 Aula 3:
 Trabalhamos com reset css, variaveis no css,
-acessamos seletores, e vimos um pouco da propriedade
-flexbox do css.
---------------------------------------------------------------------
+acessamos seletores, e vimos um pouco da propriedade flexbox do css.
+
 https://www.themoviedb.org/movie/766907-american-siege?language=pt-BR
 
 Aula 4:  26:00 minutos
 Trabalhei com imagens de fundo, adicionando um titulo <h3> e dois <button>.
+
 Vimos um pouco do uso do <p> paragrafo e formatamos o mesmo.
----------------------------------------------------------------------
 
 Aula5:
+
 Trabalhamos mais com botton estilizando ele, colocamos uma transação no menu e trabalhamos mais com margens e Font Awesome para fazer uso de icones de forma profissional.
------------------------------------------------------------------------
+
 Aula 06:
-Nesta aula vimos boas práticas e técnicas com CSS3, falando um pouco
-mais sobre classe container e wrapper.
+Nesta aula vimos boas práticas e técnicas com CSS3, falando um pouco mais sobre classe container e wrapper.
+
+Aula 07:
+Colocamos um carousel, usando plugins jquery. usamos imagens do site https://www.themoviedb.org e renderizamos no browser conseguindo chegar há um resultado muito semelhante ao site original.

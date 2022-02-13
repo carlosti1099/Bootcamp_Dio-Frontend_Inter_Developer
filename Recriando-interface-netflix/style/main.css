@@ -43,7 +43,7 @@ header nav a:hover {
 /*Filme-principal*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(50,0,100,.50), rgba(10,10,80,.20)50%), url('/img/capa.jpg');
+    background: linear-gradient(rgba(50,0,100,.50), rgba(10,10,80,.20)50%), url('../img/capa.jpg');
 
     height: 400px;
     background-size: cover;
@@ -93,4 +93,10 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 80%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
