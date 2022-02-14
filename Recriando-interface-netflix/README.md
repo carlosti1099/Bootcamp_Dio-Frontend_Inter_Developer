@@ -20,3 +20,6 @@ Nesta aula vimos boas práticas e técnicas com CSS3, falando um pouco mais sobr
 
 Aula 07:
 Colocamos um carousel, usando plugins jquery. usamos imagens do site https://www.themoviedb.org e renderizamos no browser conseguindo chegar há um resultado muito semelhante ao site original.
+
+Aula 08:
+Trabalhando no projeto aplicando a responsibilidade com "media query" e usando propriedades fle-direction: column e  um display: flex para jogar menu para baixo.
