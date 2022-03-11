@@ -1,0 +1,31 @@
+
+node   --> mostra a versao atual
+npm -v --> mostra a versao n
+
+VsCode Plugins: 
+	- Material Icon Theme
+	- Dracula Theme
+	- Auto rename tag
+
+Atalho: Ctrl + Shift + P --> abre as configurações
+
+Novo terminal vscode: Ctrl + Shift +'
+
+Executar arquivo js com node: node + arquivo.js
+	-Ex: node index.js
+	
+	-Ex2: node exercicios/aula.js
+
+Criar projeto node: No terminal digite --> npm init
+
+Executa package.json via terminal: npm run start
+
+Terminal git basch comando: code.  -->  abre nova janela com a pasta
+		---comando: touch.exe index.js  -->  cria arquivo "index.js"
+
+Typescript no node
+comando: npm install -g typescript
+
+Agora com typescript instalado
+comando: tsc --init  -->  ele criara um arquivo "typescrip json chamado tsconfig.json"
+
