@@ -29,3 +29,12 @@ comando: npm install -g typescript
 Agora com typescript instalado
 comando: tsc --init  -->  ele criara um arquivo "typescrip json chamado tsconfig.json"
 
+npm install --save-dev typescript  --> instalar manualmente
+
+npm install --save-dev @types/node  --> instalar @types - serve para as bibliotecas do node
+					para ter auto complite.
+
+npm run build   -->  converte o arquivo typescript para a pasta dist gerando "index.js"
+
+
+
