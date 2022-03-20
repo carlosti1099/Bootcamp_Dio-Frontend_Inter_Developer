@@ -36,5 +36,11 @@ npm install --save-dev @types/node  --> instalar @types - serve para as bibliote
 
 npm run build   -->  converte o arquivo typescript para a pasta dist gerando "index.js"
 
+biblioteca para otimizar tarefas dev com node
 
+Comando:  npm install --save-dev ts-node-dev
 
+	   npm run dev  -->  executar projeto automático
+
+http://localhost:3000/users
+http://localhost:3000/status
