@@ -78,3 +78,7 @@ Comando Vscoude:
 Alt + Shift + O  ---> organiza o import
 Alt + Shift + F  ---> formata o arquivo
 --------------------------------------------------------------------------------------
+
+Refatorando a rota de status
+Verificando se a aplicação está funcionando na porta
+http://localhost:3000/status
