@@ -72,3 +72,9 @@ que usa get-post-put-delete já foram construidas
 ---------------------------------------------------------------------------------
 No próxima curso começar a brincar com o banco de dados fazendo alterações
 ---------------------------------------------------------------------------------
+
+Comando Vscoude:
+
+Alt + Shift + O  ---> organiza o import
+Alt + Shift + F  ---> formata o arquivo
+--------------------------------------------------------------------------------------
