@@ -2,8 +2,9 @@ node   --> mostra a versao atual
 npm -v --> mostra a versao n
 
 Softwares e IDE utilizados:
-	- VsCoude
-	- 
+ - VsCoude
+ - Node.js
+ - Plugin Chrome - JSON Viewer
 
 VsCode Plugins: 
 
@@ -102,7 +103,7 @@ Comando Vscoude:
 
 Alt + Shift + O  ---> organiza o import
 
-Alt + Shift + F  ---> formata o arquivo
+Alt + Shift + F   ---> formata o arquivo
 
 Refatorando a rota de status
 Verificando se a aplicação está funcionando na porta
@@ -112,6 +113,10 @@ http://localhost:3000/status
 
 Live-2
 
-Instalando Npm pg: npm install --save pg
+Instalando npm pg: npm install --save pg
 
 npm install --save-dev @types/pg
+
+----------
+
+Utilizamos a ferramenta "ElephantSQL" para criar e consultar ao banco nossa tabela.
