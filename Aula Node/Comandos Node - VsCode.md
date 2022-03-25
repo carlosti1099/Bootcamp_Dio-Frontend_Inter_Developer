@@ -120,3 +120,9 @@ npm install --save-dev @types/pg
 ----------
 
 Utilizamos a ferramenta "ElephantSQL" para criar e consultar ao banco nossa tabela.
+
+Função delete no sql:
+
+- `delete from tb_tabela where id = 1`   // Exemplo usando id
+- `delete from tb_tabela where uuid = '2eb1d11d-c009-4614-9232-23f8f5773c05'`   //usando uuid
+
