@@ -1,6 +1,6 @@
-import { Router, Response, Request, NextFunction } from "express";
+import { Router, Response, Request, NextFunction } from 'express';
 import { StatusCodes } from 'http-status-codes';
-import userRepository from "../repositories/user.repository";
+import userRepository from '../repositories/user.repository';
 
 // get /users
 // get /users/:uuid
@@ -16,9 +16,14 @@ usersRoute.get('/users', async (req: Request, res: Response, next: NextFunction)
 });
 
 usersRoute.get('/users/:uuid', async(req: Request<{ uuid: string }>, res: Response, next: NextFunction) => {
-    const uuid = req.params.uuid;
-    const user = await userRepository.findById(uuid);
-    res.status(StatusCodes.OK).send(user);
+    try {
+        const uuid = req.params.uuid;
+        const user = await userRepository.findById(uuid);
+        res.status(StatusCodes.OK).send(user);
+    } catch (error){
+        console.log(error);
+        res.sendStatus(StatusCodes.INTERNAL_SERVER_ERROR);
+    }
 });
 
 usersRoute.post('/users', async (req: Request, res: Response, next: NextFunction) => {
