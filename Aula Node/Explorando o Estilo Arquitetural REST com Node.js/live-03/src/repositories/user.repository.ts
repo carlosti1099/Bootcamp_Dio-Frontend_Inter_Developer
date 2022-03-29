@@ -3,6 +3,7 @@ import User from '../models/user.model';
 import DatabaseError from '../models/error/database.error.model';
 
 class UserRepository {
+    [x: string]: any;
 
     async findAllUsers(): Promise<User[]> {
         const query = `
@@ -30,6 +31,24 @@ class UserRepository {
             return user;
         } catch (error) {
             throw new DatabaseError('Erro na consulta por ID', error);            
+        }
+    }
+
+    async findByUsernameAndPassword(username: string, password: string): Promise<User | null> {
+        try {
+            const query = `
+                SELECT uuid, username
+                FROM aaplication_user
+                WHERE username = $1
+                AND password = crypt($2, 'my_salt')
+            `;
+            const values = [username, password];
+            const { rows } = await db.query<User>(query, values);
+            const [user] = rows;
+            return user || null;
+            
+        } catch (error) {
+            throw new DatabaseError('Erro na consulta por username e passowrd', error);
         }
     }
 
