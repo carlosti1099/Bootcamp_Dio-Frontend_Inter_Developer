@@ -2,6 +2,8 @@
 
 Este é um repositório do curso Inter Frontend Developer em parceria com a Dio.
 
+Bootcamp realizado pela plataforma da Dio.me em parceria com o Banco Digital Inter e a Órbi Conecta, onde realizemos várias lives e atividades relacionadas a Lógica de programação essencial e os algoritmos no dia a dia de um dev, criação de websites usando tecnologias Html5, CSS3, Bootstrap. Git e Github trabalhando nos projetos com versionamento de códigos fazendo commit nos repositórios e diversificando com esse tecnologia incrível e no final do curso atividades com JavaScript e uma introdução sobre Node JS e React JS e algumas consultas feitas no banco de Dados SQL-Server .
+
 Cursos inclusos nesse Bootcamp: 
 
 #Logica de Programação Essencial;
