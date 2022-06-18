@@ -30,3 +30,9 @@ Trabalhando no projeto aplicando a responsibilidade com "media query" e usando p
 Aula 09:
 plugin jquery para carousel, container, responsibilidades, propriedades diversas CSS3 como flexbox,  entre outras propriedades usando Html5, CSS3, javascript, Jquery. projeto clone finalizado...
 
+Projeto Clone-Netflix
+Tecnologias usadas: HTML - CSS - JS
+
+<p align="center">
+<img src="https://github.com/carlosti1099/Cursos_Front-End_Dio/blob/main/Recriando-interface-netflix/img/netflix...png" width="400px" height="auto" />
+</p>
