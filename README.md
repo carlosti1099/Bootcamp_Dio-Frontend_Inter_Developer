@@ -1,4 +1,4 @@
-# Cursos_Front-End_Dio
+# Cursos_Dio Frontend_Inter_Developer
 
 Este é um repositório do curso Inter Frontend Developer em parceria com a Dio.
 
